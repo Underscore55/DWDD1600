@@ -1,0 +1,139 @@
+
+body {
+     font-family: "Noto Sans", serif;
+    margin: 0;
+    background-color: #979899
+}
+
+/*header things*/
+header {
+    background-color: #14873B;
+    padding: .5rem 20px; 
+}
+header span {
+    color: #eaeaea;
+    font-weight: 900;
+}
+/*nav bar*/
+nav {
+    background-color: #02e337
+}
+nav ul {
+    margin: 0;
+    padding: 0 20px;
+    list-style-type: none;
+    display: flex;
+}
+nav a {
+    display: block;
+    padding: .83rem 1rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #10873b;
+}
+nav li.active a{
+    background-color: #333;
+    color: #eaeaea;
+}
+nav a:hover {
+    color: #eaeaea;
+}
+nav p {
+    margin: 0;
+    background-color: #eaeaea;
+    padding: 5px 10px;
+    color: #333;
+    border-style: solid;
+    border-color: #333;
+}
+
+
+
+/*this is a thing*/
+box {
+    margin-left: 500px;
+    background-color: white;
+    color: #eaeaea;
+    padding: 100px;
+    border-style: solid;
+    border-color: black;
+}
+
+/*main stuff here*/
+main{
+    padding: 0rem 5rem;
+    color: #333;
+}
+main strong{
+    color: black;
+    font-weight: 900;
+}
+main em{
+    color: darkblue;
+}
+
+main p {
+    background-color: #eaeaea;
+    padding: 1rem 10px;
+    margin: 0;
+}
+
+main h1 {
+    color: #eb4a00;
+    background-color: #eaeaea;
+    padding: 1rem 10px;
+}
+
+main h2 {
+    color: #3550d1;
+    background-color: #eaeaea;
+    padding: 1px 1rem;
+    margin-bottom: 0;
+    margin-top: 1rem;
+}
+main h3 {
+    background-color: #eaeaea;
+    padding: 1px 1rem;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+main ul {
+    background-color: #eaeaea;
+    padding: 1rem 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 5rem;
+}
+main ol {
+    background-color: #eaeaea;
+    padding: 1rem 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 5rem;
+}
+
+main dl {
+    background-color: #eaeaea;
+    padding: 1px 1rem;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+
+/*footer stuff*/
+footer{
+    padding: 2rem;
+    background-color: #444;
+    color: #eaeaea;
+    margin-top: 2rem;
+}
+
+
+
+
+
+
+
+
+
