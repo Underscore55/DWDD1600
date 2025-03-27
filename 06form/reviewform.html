@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+      
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Maxwell Johnson">
+    <meta name="description" content="Learn about the declaration of Independance of the United States">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="crbndt.css">
+    <title>Cb Library Home</title>
+</head>
+
+<body>
+    <!-- start the page head-->
+    <header>
+        <span>Cb assets library</span>
+    </header>
+    
+    <!--page navigation-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="asctsgallery.html">Assets gallery</a></li>
+            <li><a href="anObject.html">model 1 info</a></li>
+            <li class="active"><a href="reviewform.html">Leave a review!</a></li>
+        </ul>
+        <p>put a search bar here?</p>
+    </nav>
+    <!--start main content-->
+    <main>
+        <h1>Review Form</h1>
+        <form method="get" class="rForm" action="thankyou.html">
+            <fieldset>
+                <legend>Name &amp; Email</legend>
+                <label>*First Name: <input type="text" name="fname" required></label>
+                <label>*Last Name: <input type="text" name="lname" required></label>
+                <label>Email: <input type="email" name="email" placeholder="person@site.com"></label>
+            </fieldset>
+            
+            <fieldset>
+                <legend>*Rating out of 5</legend>
+                <label><input type="radio" name="points" required>1/5</label>
+                <label><input type="radio" name="points" required>2/5</label>
+                <label><input type="radio" name="points" required>3/5</label>
+                <label><input type="radio" name="points" required>4/5</label>
+                <label><input type="radio" name="points" required>5/5</label>
+            </fieldset>
+            <fieldset>
+                <legend>Eperience with site</legend>
+                <label><input type="checkbox" name="useful" value="selected"> I find this site useful</label>
+                <label><input type="checkbox" name="wourecomend" value="selected"> I would recomend this site</label>
+                
+                <label><input type="checkbox" name="hardtouse" value="selected"> I find this site hard to use/navigate</label>
+                <label><input type="checkbox" name="notrecomend" value="selected"> I would NOT recomend this site</label>
+                <label><input type="checkbox" name="rude" value="selected"> I think filling out forms is dumb.</label>
+                <label>Overall Experience:
+                    <select name="experience">
+                        <option value="none">please select</option>
+                        <option value="positive">Positive</option>
+                        <option value="negitive">Negitave</option>
+                        <option value="neutral">Neutral</option>
+                    </select>
+                </label>
+            </fieldset>
+            <label class="comments">Additional Comments:
+                <textarea></textarea>
+            </label>
+            
+            <input type="submit" value="Post Site Review">
+        </form>
+    </main>
+    <!--start footer-->
+    <footer>
+        <p>&copy; 2025 &bull; Maxwell Johnson &bull; web development</p>
+    </footer>
+</body>
+
+</html>
